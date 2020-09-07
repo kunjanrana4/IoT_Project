@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/CHECKHEALTH_NAVIGATION"
+        app:headerLayout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        app:itemTextColor="@color/colorPrimary"
+        app:itemIconTint="@color/colorPrimary"
+        app:menu="@menu/drawmenu"
+        android:layout_gravity="start"
+        ></android.support.design.widget.NavigationView>
+
+    <TextView
+        android:id="@+id/HEALTHCHECK_TEMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data 1"/>
+
+    <TextView
+        android:id="@+id/HEALTHCHECK_ACC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data 2"/>
+</android.support.v4.widget.DrawerLayout>
